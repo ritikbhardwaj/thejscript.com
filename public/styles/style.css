@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Rubik', sans-serif; */
+}
+
+body {
+    background-color: #938B8B;
+}
+
+/* styles for the navbar */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    /* -webkit-box-shadow: 2px -3px 18px 0px rgba(0, 0, 0, 0.3); */
+    /* -moz-box-shadow: 2px -3px 18px 0px rgba(0, 0, 0, 0.3); */
+    /* box-shadow: 2px -3px 18px 0px rgba(0, 0, 0, 0.3); */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 54px;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav p {
+    position: relative;
+    font-size: 30px;
+    left: -200px;
+    font-family: 'Rufina', serif;
+    font-weight: bold;
+}
+
+nav p span {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Rufina', serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+nav li {
+    font-size: 20px;
+}
+
+nav li:hover {
+    color: rgb(120, 114, 114);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+/* Styles for the input and the output areas */
+
+/* hamburger */
+
+div.hamburger {
+    position: absolute;
+    width: 35px;
+    height: 25.13px;
+    left: 20px;
+    top: 95px;
+    cursor: pointer;
+}
+
+div.hamburger div {
+    background-color: white;
+    height: 6px;
+    width: 35px;
+    margin-top: 5px;
+}
+
+/* ------------ */
+
+section {
+    display: flex;
+}
+
+div#input {
+    width: 820px;
+    height: 675px;
+    background-color: white;
+    position: relative;
+    top: 58px;
+    left: 7px;
+    box-shadow: inset 0px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    border: 1px solid grey;
+    outline: none;
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-size: 16px; */
+}
+
+button.run-btn {
+    position: absolute;
+    top: 750px;
+    left: 725px;
+    width: 93px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #32BD51;
+    font-family: "arial black";
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+button.run-btn:hover {
+    background-color: rgb(101, 199, 122);
+}
+
+div.resize {
+    position: relative;
+    left: 9px;
+    width: 5px;
+    background-color: #938B8B;
+    /* background-color: black; */
+    height: 675px;
+    cursor: ew-resize;
+    top: 60px;
+}
+
+div.output {
+    width: 600px;
+    height: 675px;
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    top: 58px;
+    left: 5px;
+    /* box-shadow: inset 0px 3px 10px rgba(255, 255, 255, 0.3); */
+    border-radius: 4px;
+    margin-left: 2px;
+    /* border: 1px solid white; */
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 100;
+    overflow: scroll;
+}
+
+div.output h3 {
+    color: white;
+}
