@@ -3,7 +3,7 @@
 ## Initial front-end design (Figma)
 ![](images/figma-gui.png)
 
-## Actual applicaiton on browser
+## Application in browser
 
 ![](images/browser-gui.png)
 
